@@ -1,0 +1,212 @@
+@media screen and (max-width: 1024px) {
+    .course-form input {
+        width: 34%;
+    }
+    .Signup {
+        padding: 50px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .banner-nav ul {
+        padding: 22px;
+        background-color: black;
+        position: absolute;
+    }
+
+    .banner-bg {
+        background-position: center;
+    }
+
+    .course-title h3 {
+
+        padding-top: 50px;
+    }
+
+    .course-form form{
+    
+        display: block;
+    }
+
+    .course-form {
+        max-width: 355px;
+        padding: 20px 15px;
+    }
+    .course-form input {
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    .course-btn {
+        text-align: start;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 0%;
+    }
+
+    .footer-btn {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .footer-text h5 {
+        color: #fff;
+        font-family: "K2D", sans-serif;
+        line-height: 28px;
+        padding-top: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 778px) {
+
+    .banner-nav ul {
+        padding: 22px;
+        background-color: black;
+        position: absolute;
+    }
+
+    .banner-bg {
+        background-position: center;
+    }
+
+    .course-Learn {
+        margin-top: 30px;
+    }
+
+    .course-Learn-tady {
+        margin-top: 30px;
+    }
+
+    .course-Learn-event {
+        margin-top: 30px;
+    }
+
+    .banner-title h3 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .banner-title p {
+        font-size: 14px;
+    }
+
+    .banner-form {
+        display: block;
+
+    }
+
+    .banner-form input {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+    }
+
+    .banner-sing {
+        margin-top: 20px;
+    }
+
+    .course-title h3 {
+        font-size: 25px;
+        line-height: 34px;
+
+    }
+
+    .course {
+        transform: translate(1px, -84px);
+    }
+
+    .course-title p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .course-bg-color h3 {
+        font-size: 36px;
+    }
+    .course-form form{
+    
+        display: block;
+    }
+
+    .course-form {
+        max-width: 355px;
+        padding: 20px 15px;
+    }
+    .course-form input {
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    .course-btn {
+        text-align: start;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 0%;
+    }
+
+    .Signup-title h3 {
+        font-size: 30px;
+    }
+
+    .Signup-title p {
+        font-size: 15px;
+    }
+
+    .Signup-form {
+        padding: 0%;
+    }
+
+    .Signup {
+        padding: 25px;
+    }
+
+    .Signup-btn {
+        text-align: start;
+    }
+
+    .footer-text li {
+        font-size: 13px;
+    }
+
+    .cpoyright-text ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding-top: 19px;
+        padding-left: 0%;
+    }
+
+    .cpoyright-text ul li {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 448px) {
+
+    .banner-nav ul {
+        padding: 22px;
+        background-color: black;
+        position: absolute;
+    }
+
+    .course {
+        transform: translate(1px, -84px);
+    }
+    .course-Learn {
+        margin-top: 130px;
+    }
+    .banner-title {
+        padding-top: 90px;
+        color: #fff;
+    }
+}
+
