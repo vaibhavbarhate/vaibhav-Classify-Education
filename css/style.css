@@ -550,7 +550,7 @@ font-size: 22px;
         margin-top: 20px;
     }
     
-    .about-team:hover .about-team img{
+    .about-team:hover.about-team img{
         transform: scale(1.2);
         transition: 2s;
     
