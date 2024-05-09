@@ -2,8 +2,28 @@
     .course-form input {
         width: 34%;
     }
+
     .Signup {
         padding: 50px;
+    }
+    .course-form-about form {
+        display: block;
+    }
+
+    .course-form-about input {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about-btn {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .icon-search {
+        position: absolute;
+        right: 100px;
+        top: 10px;
     }
 }
 
@@ -24,8 +44,8 @@
         padding-top: 50px;
     }
 
-    .course-form form{
-    
+    .course-form form {
+
         display: block;
     }
 
@@ -33,6 +53,7 @@
         max-width: 355px;
         padding: 20px 15px;
     }
+
     .course-form input {
         padding: 10px 10px;
         margin-top: 20px;
@@ -57,9 +78,33 @@
         line-height: 28px;
         padding-top: 20px;
     }
+
+    .tab button {
+        font-size: 21px;
+        font-family: "K2D", sans-serif;
+        line-height: 38px;
+    }
+
+    .course-form-about form {
+        display: block;
+    }
+
+    .course-form-about input {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about-btn {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .icon-search {
+        position: absolute;
+        right: 261px;
+        top: 10px;
+    }
 }
-
-
 
 @media screen and (max-width: 778px) {
 
@@ -115,7 +160,6 @@
     .course-title h3 {
         font-size: 25px;
         line-height: 34px;
-
     }
 
     .course {
@@ -130,8 +174,9 @@
     .course-bg-color h3 {
         font-size: 36px;
     }
-    .course-form form{
-    
+
+    .course-form form {
+
         display: block;
     }
 
@@ -139,6 +184,7 @@
         max-width: 355px;
         padding: 20px 15px;
     }
+
     .course-form input {
         padding: 10px 10px;
         margin-top: 20px;
@@ -187,6 +233,34 @@
     .cpoyright-text ul li {
         font-size: 13px;
     }
+    .about-course {
+        transform: translate(0px, -81px);
+    }
+    .tab button {
+
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    .course-form-about form {
+        display: block;
+    }
+
+    .course-form-about input {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about-btn {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .icon-search {
+        position: absolute;
+        right: 267px;
+        top: 10px;
+    } 
 }
 
 
@@ -201,12 +275,36 @@
     .course {
         transform: translate(1px, -84px);
     }
+
     .course-Learn {
         margin-top: 130px;
     }
+
     .banner-title {
         padding-top: 90px;
         color: #fff;
     }
+    .banner-bg-course {
+ 
+        background-position: center;
+    }
+    .about-course {
+        transform: translate(0px, -81px);
+    }
+    .tab button {
+        font-size: 15px;
+        line-height: 31px;
+        border-bottom: 1px solid #a59d9d87;
+    }
+    .icon-search {
+        position: absolute;
+        right: 91px;
+        top: 12px;
+    }
+    .banner-bg-contect {
+       background-position: center;
+    }
+    .contect-form {
+        margin: 25px 22px 10px 21px;
+    }
 }
-

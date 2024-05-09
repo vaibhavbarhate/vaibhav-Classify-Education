@@ -37,22 +37,23 @@
                     <div class="collapse navbar-collapse banner-nav" id="collapsibleNavbar">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link" href="about.html">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="course.html">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
+                                <a class="nav-link" href="news.html">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contect.html">Contact</a>
                             </li>
                             <div class="banner-btn">
-                                <button>Login</button>
+                                <button type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Login</button>
                             </div>
                         </ul>
                     </div>
@@ -452,6 +453,84 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-xxl-down	">
+            <div class="modal-content ">
+                <div class="modal-header modal-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="modal-img">
+                                    <img src="/img/Classify-PhotoRoom 1.png" alt="">
+                                </div>
+                                <div class="modal-text">
+                                    <p>Login using social media to
+                                        get quick access</p>
+                                </div>
+                                <div class="modal-social-media">
+                                    <div class="modal-center">
+                                        <div class="modal-media mt-5">
+                                            <div class="modal-icon-fb">
+                                                <i class="fa fa-facebook " aria-hidden="true"><a href="#"> Sign With
+                                                        Facebook</a>
+                                                </i>
+                                            </div>
+                                        </div>
+                                        <div class="modal-media-twitter mt-3">
+                                            <div class="modal-icon-fb">
+                                                <i class="fa fa-twitter" aria-hidden="true"><a href="#">Sign With
+                                                        twitter</a></i>
+                                                </i>
+                                            </div>
+                                        </div>
+                                        <div class="modal-media-google mt-3">
+                                            <div class="modal-icon-fb">
+                                                <i class="fa fa-google-plus " aria-hidden="true"><a href=""> Sign With
+                                                        google</a>
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="modal-login">
+                                    <h4>Login to your account</h4>
+                                </div>
+                                <div class="modal-form">
+                                    <form action="">
+                                        <div class="modal-input">
+                                            <input type="text" name="text" id="#" placeholder="Enter Email">
+                                        </div>
+                                        <div class="modal-input mt-3">
+                                            <input type="text" name="text" id="#" placeholder="Enter Password">
+                                        </div>
+                                        <div class="modal-check">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckIndeterminate">
+                                                <label class="form-check-label text-light" for="flexCheckIndeterminate">
+                                                    Remember Me
+                                                </label>
+                                            </div>
+                                            <div class="modal-forget">
+                                                <p><a href="">Forgot Password?</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-login-btn">
+                                            <button>Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    </div>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
