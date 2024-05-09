@@ -541,15 +541,13 @@ font-size: 22px;
     padding-top: 10px
     }
   
-    /* .about-team {  
+    .about-team {  
         overflow: hidden;
-        
-    } */
+
+    }
     .about-team img{
         transition: 2s;
-                overflow: hidden;
         margin-top: 20px;
-
     }
     
     .about-team:hover .about-team img{
