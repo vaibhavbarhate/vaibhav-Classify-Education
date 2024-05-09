@@ -77,6 +77,8 @@
         font-family: "K2D", sans-serif;
         line-height: 28px;
         padding-top: 20px;
+        font-size: 18px;
+
     }
 
     .tab button {
@@ -103,6 +105,10 @@
         position: absolute;
         right: 261px;
         top: 10px;
+    }
+      .about-team {
+        width: 100%;
+        margin-top: 30px;
     }
 }
 
@@ -261,6 +267,10 @@
         right: 267px;
         top: 10px;
     } 
+    .about-team {
+        width: 100%;
+        margin-top: 30px;
+    }
 }
 
 
@@ -303,6 +313,9 @@
     }
     .banner-bg-contect {
        background-position: center;
+    }
+    .about-team {
+        width: 100%;
     }
     .contect-form {
         margin: 25px 22px 10px 21px;

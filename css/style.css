@@ -434,8 +434,14 @@ button {
     line-height: 22px;
     padding-top: 12px;
     font-size: 15px;
-}
+    transition: 1s;
 
+}
+.footer-text li:hover {
+    color: #D82A4E;
+    transition: 1s;
+    transform: scale(1.1);
+}
 
 .footer-input input {
     padding: 10px;
@@ -545,6 +551,7 @@ font-size: 22px;
         overflow: hidden;
         width: 261px;
         height: 174px;
+        margin-top: 30px;
 
     }
     .about-team img{
